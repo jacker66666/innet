@@ -12,6 +12,8 @@ import com.example.cj.innit.R;
 public class HomeDetailsAty extends BaseActivity{
 
     private String str="测试信息！！！！！！！！！！！！！！！！";
+    private String str1="测试信息！！！！！！！！！！！！！！！！";
+    private String str2="测试信息！！！！！！！！！！！！！！！！";
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
