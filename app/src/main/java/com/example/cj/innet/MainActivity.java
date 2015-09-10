@@ -37,7 +37,7 @@ public class MainActivity extends BaseActivity{
     private Intent intent;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         preMenuWithView();
@@ -76,7 +76,7 @@ public class MainActivity extends BaseActivity{
         menu.setBehindOffsetRes(R.dimen.shadow_width);
         menu.setBehindWidth(300);
         menu.setFadeDegree(0.35f);
-        menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+        menu.attachToActivity(this,SlidingMenu.SLIDING_CONTENT);
         menu.setMenu(R.layout.activity_main);
         initLeftView(menu);
     }
@@ -96,7 +96,6 @@ public class MainActivity extends BaseActivity{
         mlayout_interest = (FrameLayout) menu.getMenu().findViewById(R.id.layout_interestbg);
         mlayout_setting = (FrameLayout) menu.getMenu().findViewById(R.id.layout_settingbg);
         allclick();
-
     }
 
 
@@ -191,5 +190,4 @@ public class MainActivity extends BaseActivity{
             }
         });
     }
-
 }

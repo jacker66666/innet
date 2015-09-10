@@ -3,6 +3,7 @@ package com.example.cj.innet;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.cj.innit.R;
@@ -15,6 +16,7 @@ public class LoginAty extends BaseActivity implements View.OnClickListener{
 
     private TextView mtv_signup;
     private Intent intent;
+    private ImageView ming_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +27,9 @@ public class LoginAty extends BaseActivity implements View.OnClickListener{
 
     private void initView() {
         mtv_signup = (TextView) findViewById(R.id.signup);
+        ming_back = (ImageView) findViewById(R.id.loginback);
         mtv_signup.setOnClickListener(this);
+        ming_back.setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +38,9 @@ public class LoginAty extends BaseActivity implements View.OnClickListener{
             case R.id.signup:
                 intent = new Intent(this,RegisterAty.class);
                 startActivity(intent);
+                break;
+            case R.id.loginback:
+                finish();
                 break;
         }
     }
