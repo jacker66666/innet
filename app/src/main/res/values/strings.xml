@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">innet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logintitle">ENTER</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="loginnoaccout">No account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="withemail">With Email</string>
+    <string name="register">REGISTER</string>
+    <string name="registertv01">By creating an account and signing into Intnt</string>
+    <string name="repeatpassword">Repeat Password</string>
+    <string name="iacceptthe">I accept the</string>
+    <string name="useragreement">User Agreement</string>
+
+</resources>
